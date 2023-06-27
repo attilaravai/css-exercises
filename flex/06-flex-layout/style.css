@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -30,12 +31,13 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .left-links,.right-links {
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 8px;
 }
 
 .right-links {
@@ -48,6 +50,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: gray;
 }
 
 .footer {
@@ -59,10 +62,12 @@ a {
   right: 0;
   height: 52px;
   background: #eee;
+  padding: 8px;
 }
 
 .content {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
